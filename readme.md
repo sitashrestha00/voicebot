@@ -15,7 +15,7 @@ This repository contains a simple Python application defined in `app.py`.
     cd practice
     ```
 
-2. Install requirements (if any):
+2. Install requirements:
     ```bash
     pip install -r requirements.txt
     ```

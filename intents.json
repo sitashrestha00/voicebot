@@ -1,0 +1,544 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Hey there!", "goodmorning", "goodafternoon", "goodevening", "greeting"],
+      "responses": ["Hey :-)", "Hello, Welcome", "Hi there, what can I do for you?", "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "C ya"],
+      "responses": [
+        "See you later, thanks for your query",
+        "Tata! Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Hope we help you to get proper info"]
+    },
+    {
+      "tag": "About user",
+      "patterns": [
+        "Do you know me?",
+        "What's my name?",
+        "What's my phone no.",
+        "my address",
+        "my classroom",
+        "my section",
+        "my location",
+        "my",
+        "can you tell my name/parking/schooling",
+        "where I am from?"
+      ],
+      "responses": [
+        "Sorry i cannot recognize you till now..."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where it is located?",   
+        "Where it is situated?",
+        "Where it lies?",
+        "place",
+        "how can i reach there?",    
+        "Where are you from?",
+        "Where is the college ?",
+        "Is it in Kathmandu?",
+        "can you give me your location of prime"
+      ],
+      "responses": [
+        "It is located at Pahiko Sadak, Kathmandu, Nepal",
+        "It is situated in Pahiko Sadak, Kathmandu District, Nepal",
+        "Our exact address is: Prime College, Pahiko Sadak, Nayabazar (Khusibu), Kathmandu"
+      ]
+    },
+    {
+      "tag": "introduce",
+      "patterns": [
+        "Can you tell me about Prime?",
+        "structure of Prime",
+        "about Prime",
+        "Please provide me some information about college",
+        "can i get more info about college?",
+        "Introduction please"
+      ],
+      "responses": [
+        "Prime College is an information technology, management, and science college in Pahiko Sadak, Nayabazar (Khusibu) Kathmandu, Nepal, established in 2001. The college offers courses for BBS (Bachelor of Business Studies) BBA (Bachelor of Business Administration), BBM (Bachelor of Business Management) BCA(Bachelor in Computer Application ), BIM (Bachelor of Information Management), B.Sc.(CSIT) which are affiliated with the Tribhuvan University of Nepal and CCNA (Cisco Certified Network Associate).",
+        "Prime College is a leading educational institution in Kathmandu offering various IT, management and science programs since 2001 AD."
+      ]
+    },
+    {
+      "tag": "establish",
+      "patterns": [
+        "When it was established?",
+        "when Prime begin",
+        "when was this institude establish?",
+        "When it was started?"
+      ],
+      "responses": [
+        "It was established in 2001 AD",
+        "It was founded in 2001 AD",
+        "Prime College has been serving students since 2001"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available?",
+        "Can you tell me about the courses offered?",
+        "Tell me about Prime College courses",
+        "List all courses at Prime College",
+        "What are the courses offered at Prime College?",
+        "Which programs does Prime offer?",
+        "Available programs"
+      ],
+      "responses": [
+        "There are 6 Bachelors level courses and 1 Master level course: In Bachelors, Prime College offers BBA, BBM, BBS, B.Sc. CSIT, BCA, and BIM, and in Master level, Prime College offers MBS.",
+        "We offer: BBA, BBM, BBS, BCA, BIM, B.Sc.CSIT at bachelor level and MBS at master level."
+      ]
+    },
+    {
+      "tag": "years",
+      "patterns": [
+        "how long is BCA?",
+        "how long is BIM?",
+        "how long is BBM?",
+        "how long is BBA?",
+        "how long is B.Sc.(CSIT)?",
+        "how long is BBS?",
+        "BCA study period",
+        "BIM study period",
+        "BBM study period",
+        "BBA study period",
+        "BBS study period",
+        "B.Sc.(CSIT) study period",
+        "Duration"
+      ],
+      "responses": [
+        "BCA:4 years (8 Semesters),BIM:4 years (8 Semesters),BBM:4 years (8 Semesters), BBA:4 years(8 Semesters),B.Sc.(CSIT) :4 years(8 Semesters),BBS:4 years,",
+        "All bachelor programs are 4 years (8 semesters) except BBS which is 3 years."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure for BCA?",
+        "How much does the BCA program cost?",
+        "Can you tell me the fees for the BIM course?",
+        "What are the tuition fees for BBS?",
+        "How much is the fee for B.Sc. (CSIT)?",
+        "What are the charges for the BBA program?",
+        "Can you provide the fee details for BBM?",
+        "How much do I need to pay for the MBS program?",
+        "Is there a fee structure available for all courses?",
+        "Where can I find more information about the fee structure?",
+        "Total cost",
+        "Program fees"
+      ],
+      "responses": [
+        "The fee structure is as follows:\n- BCA: 6 lakhs\n- BIM: 6 lakhs\n- BBS: 2 lakhs\n- B.Sc. (CSIT): 9 lakhs 30 thousand\n- BBA: 7 lakhs 50 thousand\n- BBM: 4 lakhs 50 thousand\n- MBS: 2 lakhs.\nFor more accurate details about the fee structure, please visit the college.",
+        "Approximate total fees:\nBCA/BIM: ~6 lakhs\nBBS: ~2 lakhs\nB.Sc.CSIT: ~9.3 lakhs\nBBA: ~7.5 lakhs\nBBM: ~4.5 lakhs\nMBS: ~2 lakhs"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How do i contact with college?",
+        "what is number for college?",
+        "contact number please",
+        "contact ",
+        "phone no.",
+        "Can you please provide me phone number?",
+        "Can you please provide me contact number?",
+        "college phone",
+        "office number"
+      ],
+      "responses": [
+        "You can contact through these number:Ph-01: +977-01-496190 Ph-02: +977-01-4970072. Email: info@prime.edu.np",
+        "Contact details:\nPhone: +977-01-496190 / 4970072\nEmail: info@prime.edu.np\nWebsite: www.prime.edu.np"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities does college have?",
+        "college infrastructure",
+        "available resources",
+        "library facility",
+        "computer lab",
+        "sports facilities",
+        "hostel facility"
+      ],
+      "responses": [
+        "Prime College provides:\n- Well-equipped computer labs\n- Library with digital resources\n- Sports facilities\n- Cafeteria\n- Hostel for outstation students",
+        "Our facilities include modern classrooms, computer labs, library, sports ground, cafeteria and hostel facilities."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How to apply?",
+        "admission process",
+        "required documents",
+        "eligibility criteria",
+        "when does admission start?",
+        "admission form",
+        "how to get admission?"
+      ],
+      "responses": [
+        "Admission process:\n1. Fill application form\n2. Submit required documents\n3. Appear for entrance test (if applicable)\n4. Complete interview\n5. Pay fees",
+        "For admission, you need:\n- SEE/SLC marksheet\n- +2 transcript\n- Character certificate\n- Passport photos\nApply during admission period (usually June-August)"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Does college offer scholarships?",
+        "financial aid",
+        "fee waiver",
+        "how to get scholarship?",
+        "scholarship criteria",
+        "free education"
+      ],
+      "responses": [
+        "Scholarships are available based on:\n- Academic performance\n- Financial need\n- Special talents\nContact administration office for details",
+        "We provide scholarships to meritorious and needy students. Criteria varies each year."
+      ]
+    },
+    {
+      "tag": "objectives",
+      "patterns": [
+        "What is objective of this college?",
+        "Why this college is established?",
+        "What is motive behind establishment of this college?",
+        "What are the goals of Prime College?",
+        "Why was Prime created?"
+      ],
+      "responses": [
+        "To provide students with a dynamic, interactive, and technologically driven educational environment where clear learning outcomes and constructive feedback is given throughout the student's journey.",
+        "Our objectives are: 1) Quality education 2) Industry-relevant skills 3) Holistic development 4) Research opportunities 5) Career preparation",
+        "Prime College was established to bridge the gap between academia and industry, preparing students for real-world challenges through practical education."
+      ]
+    },
+    {
+      "tag": "department",
+      "patterns": [
+        "How many programs/departments are there in Prime College?",
+        "Can i get info about each department?",
+        "how many department are there?",
+        "What type of department are available there?",
+        "What are programs offered by college?",
+        "show me available courses",
+        "What courses are available right now?",
+        "Can i get course information?",
+        "which faculty do you teach?",
+        "What type of courses are available there?",
+        "List all departments"
+      ],
+      "responses": [
+        "There are 6 Programs: 1. BSc.CSIT: Bachelor of Science in Computer Science and Information Technology 2. BCA: Bachelor of Computer Applications 3. BBA: Bachelors of Business Administration 4. BIM: Bachelors of Information Management 5. BBM: Bachelors of Business Management 6. BBS: Bachelors of Business studies. There is also a masters Program: MBS: Master of Business Studies",
+        "Our departments include: Computer Science (BCA, BIM, BSc.CSIT), Business (BBA, BBM, BBS, MBS). Each department has modern labs and experienced faculty.",
+        "Prime College offers programs in three main areas: IT (BCA, BIM, BSc.CSIT), Business (BBA, BBM, BBS), and Management (MBS)."
+      ]
+    },
+    {
+      "tag": "purpose",
+      "patterns": [
+        "What can you do?",
+        "Who are you?",
+        "What are you here for?",
+        "Are you bot?",
+        "What is your name?",
+        "Is your name chatbot?",
+        "Who are you?",
+        "Your identity?"
+      ],
+      "responses": [
+        "I am Prime college chatbot here to answer your queries about admissions, courses, facilities and more!",
+        "Undoubtedly, I am chatbot created to assist students and visitors with information about Prime College.",
+        "I am PrimeBot, your virtual assistant for all Prime College related information."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "what about hostel?",
+        "Can you tell me about hostel facilities?",
+        "Is there any hostel facility in college?",
+        "Where can I stay?",
+        "Accommodation options",
+        "Student housing"
+      ],
+      "responses": [
+        "No, there is not such facility. But there are several private hostels nearby.",
+        "Sorry to say that there is no such hostel facility but you can find nearby easily",
+        "While Prime doesn't have its own hostel, we maintain a list of recommended private hostels and apartments near campus."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "What about library?",
+        "Can you tell me about library?",
+        "Is there any library facility in college?",
+        "where can i get some books?",
+        "can i borrow books from college",
+        "Study resources",
+        "Reading materials"
+      ],
+      "responses": [
+        "There is well mannered library inside the college with good environment where we can get subject related as well as general knowledge books and we can lend upto 3 different books till valid date.",
+        "Our library has: 1) 10,000+ books 2) Digital resources 3) Quiet study areas 4) Research assistance. Students can borrow 3 books for 2 weeks.",
+        "The Prime College library offers extensive collections, e-resources, and a peaceful study environment to support your academic journey."
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "Is there canteen available?",
+        "Where can i get some quality foods?",
+        "Is there canteen facilities",
+        "Do Prime College have canteen?",
+        "Is canteen food is proper / tasty?",
+        "Do you have quality food item canteen?",
+        "What are the meal plan options?",
+        "How's the food?",
+        "Cafeteria info"
+      ],
+      "responses": [
+        "There is well mannered and hygienic canteen inside the college with good environment and quality fresh food. Foods are available in reasonable price in prime canteen which are fresh and quality.",
+        "Our canteen serves: 1) Healthy meals 2) Snacks 3) Beverages 4) Special dishes daily. Open from 8AM to 5PM on college days.",
+        "Enjoy the view from the rooftop canteen while eating quality food at student-friendly prices."
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": [
+        "Is there transportation facilities available?",
+        "Is there college bus available?",
+        "Bus facilities?",
+        "Do prime have transportation?",
+        "when college bus leave from college",
+        "At what time college bus leave?",
+        "Is there bus facilities?",
+        "How to commute?"
+      ],
+      "responses": [
+        "No, College buses are not available",
+        "While we don't operate buses, the college is easily accessible by public transportation and has good parking for bicycles/bikes.",
+        "Many students use public buses, taxis, or ride-sharing services as the college is centrally located in Kathmandu."
+      ]
+    },
+    {
+      "tag": "waytocollege",
+      "patterns": [
+        "how can i reach there?",
+        "how can i get to college?",
+        "Tell me the way to reach college?",
+        "how can i get college from ratnapark?",
+        "directions to college",
+        "location guide",
+        "how to find prime college"
+      ],
+      "responses": [
+        "Yes, you can reach from ratnapark, Jamal, Lainchaur, sorakhutte, kaldhara and then go straight towards college.",
+        "From Ratnapark: Take the road towards Thamel, turn right at Sorakhutte, continue straight to Nayabazar. College is on Pahiko Sadak.",
+        "Landmark: Near Nayabazar, opposite of Nepal Rastra Bank. Easily accessible by taxi or public transport from all parts of Kathmandu."
+      ]
+    },
+    {
+      "tag": "counsel",
+      "patterns": [
+        "Does college conduct any career based counselling program?",
+        "What about counselling program?",
+        "counsel",
+        "Is there any counselling program from college?",
+        "Career guidance",
+        "Student support services"
+      ],
+      "responses": [
+        "Yes, counselling programs are conducted from time to time. Experienced professionals in the respective fields are invited for their valuable suggestions and sharing their working experiences with the students.",
+        "We have Prime Career Center for job counseling and Prime Wellness Center that provides mental health support to all students.",
+        "Services include: 1) Career counseling 2) Academic advising 3) Mental health support 4) Internship guidance",
+        "Our counseling programs help students with career choices, study skills, and personal development throughout their academic journey."
+      ]
+    },
+    {
+      "tag": "practicals",
+      "patterns": [
+        "How about practical?",
+        "How students are involved in practical field of their respective courses?",
+        "Can you tell me about college practical?",
+        "Hands-on learning",
+        "Industry exposure",
+        "Internship opportunities"
+      ],
+      "responses": [
+        "College organizes different expos and exhibition at certain intervals for improving students' practical skills in their fields.",
+        "Practical sessions are organized weekly according to their respective courses in our well-equipped labs.",
+        "Our college has been providing paid internship programs under Prime Educational Inc (Prime College and Prime Global School).",
+        "Students participate in: 1) Lab sessions 2) Industry visits 3) Competitions 4) Research projects 5) Internships",
+        "We emphasize practical learning through case studies, projects, and collaborations with IT and business organizations."
+      ]
+    },
+    {
+      "tag": "extraclass",
+      "patterns": [
+        "Can i get extra classes?",
+        "how about extra classes?",
+        "Is there extra class available?",
+        "Is there any facility of extra classes?",
+        "Need additional classes",
+        "Request for extra lectures"
+      ],
+      "responses": [
+        "Yes, it is possible to get extra classes if requested by a group of students",
+        "As per requirement of time and situation, extra classes are conducted",
+        "Students can request extra classes through their department heads. Minimum 10 students required to schedule a session."
+      ]
+    },
+    {
+      "tag": "meeting",
+      "patterns": [
+        "Is parent meeting conducted timely?",
+        "What about parent meeting?",
+        "When are parent-teacher meetings?",
+        "How often parents meetings occur?"
+      ],
+      "responses": [
+        "Ofcourse, why not! It is conducted timely on the requirement basis.",
+        "Regular parent-teacher meetings are scheduled twice a year, with additional meetings arranged as needed.",
+        "We conduct formal parent meetings every semester, plus additional sessions can be scheduled by appointment."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Is there scholarship available?",
+        "Are there scholarship?",
+        "What student should do to get scholarship?",
+        "Does college provide any scholarship?",
+        "What percentage of students receive grants and/or scholarships?",
+        "How to apply for scholarship?"
+      ],
+      "responses": [
+        "There are three types of scholarship provided in the college: 1. Merit-based Scholarship 2. Impact-based Scholarship 3. Legacy-based Scholarship",
+        "About 25% of our students receive some form of scholarship. Applications open each semester.",
+        "To apply: Submit academic records, recommendation letter, and scholarship application form before deadline."
+      ]
+    },
+    {
+      "tag": "transfer",
+      "patterns": [
+        "What about transfer?",
+        "Can i get transferred or transfer from another college?",
+        "Transfer process",
+        "How to transfer to Prime?",
+        "Transfer requirements"
+      ],
+      "responses": [
+        "Yes, you can if you have the transfer certificate along with all other necessary documents from the college you are being transferred from.",
+        "Without the necessary documents you cannot get the permission from the university and cannot get admitted to the college.",
+        "Transfer process requires: 1) Transfer certificate 2) Academic transcripts 3) Character certificate 4) Approval from both institutions"
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "What about internship?",
+        "Does college provide any internship?",
+        "Is there any chances of internship from college?",
+        "What are the work-study opportunities?",
+        "Are there opportunities to build leadership skills on campus?",
+        "Does your school have a co-op program?",
+        "Are internships available?",
+        "Are there opportunities to build leadership skills on college?",
+        "Industry placement"
+      ],
+      "responses": [
+        "Yes, college provides internship programs for the students who are better at their respective fields",
+        "Yes, internship programs are available in college for students who excellence in their fields",
+        "We partner with 50+ companies for internships. Placement cell assists students in finding suitable opportunities.",
+        "Leadership opportunities include: Student Council, Club Leadership, Event Organization, and Peer Mentoring programs."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "what is procedure for online payment?",
+        "Is there online payment?",
+        "Can we pay from online?",
+        "Payment methods",
+        "How to pay fees?",
+        "Digital payment options"
+      ],
+      "responses": [
+        "Yes, you can pay through E-sewa or Connect-IPS or even you can send payment bank voucher to college email",
+        "Yes, you can pay through E-sewa or Connect-IPS, or you can send a bank voucher to the college's email address",
+        "Payment options: 1) Online via E-sewa/ConnectIPS 2) Bank transfer 3) Cash at college counter 4) Bank voucher email to info@prime.edu.np"
+      ]
+    },
+    {
+      "tag": "Email",
+      "patterns": [
+        "what is Email of college",
+        "Can i get email of college?",
+        "Official email",
+        "College contact email",
+        "Where to send documents?"
+      ],
+      "responses": [
+        "info@prime.edu.np",
+        "Official email: info@prime.edu.np (for general inquiries)",
+        "Department specific emails: admissions@prime.edu.np (for admissions), accounts@prime.edu.np (for payments)"
+      ]
+    },
+    {
+      "tag": "OrganizationalStructure",
+      "patterns": [
+        "what is Organizational Structure of Prime college",
+        "Can i know Organizational Structure of college?",
+        "College hierarchy",
+        "Management structure",
+        "Who runs the college?"
+      ],
+      "responses": [
+        "Organizational Structure of Prime is: 1.Prime college 2.College management committee 3.Chairman 4.Principal 5.Vice principal 6.Administration(General and Academic)",
+        "The college operates under: Governing Board → Chairman → Principal → Department Heads → Faculty → Administrative Staff",
+        "Structure includes Academic Council, Examination Committee, and Student Welfare Committee overseeing operations."
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "what is vision of Prime college",
+        "Can i know vision of Prime college?",
+        "College vision statement",
+        "What does Prime aspire to be?"
+      ],
+      "responses": [
+        "The vision of Prime College is to provide students with a dynamic, interactive, and technologically driven educational environment where clear learning outcomes and constructive feedback is given throughout the student's journey.",
+        "To be Nepal's premier institution for IT and management education, producing industry-ready graduates.",
+        "Our vision: Transforming education through innovation, technology and excellence in teaching."
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "what is mission of Prime college",
+        "Can i know mission of Prime college?",
+        "College mission statement",
+        "What is Prime's purpose?"
+      ],
+      "responses": [
+        "The Students: To provide students with a dynamic, interactive, and technologically driven educational environment where clear learning outcomes and constructive feedback is given throughout the student's journey.",
+        "The Teachers: To offer full freedom in terms of resources; bringing out their true potential when delivering high-quality teaching.",
+        "Our mission includes: 1) Quality education 2) Industry partnerships 3) Research opportunities 4) Community engagement 5) Student success"
+      ]
+    }
+  ]
+}
